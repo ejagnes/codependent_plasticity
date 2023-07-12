@@ -31,7 +31,7 @@ set size 0.5,0.3
 set xrange [0.5:8.5]
 set yrange [0:1]
 set ylabel "weight (nS)" offset 1,0
-set xlabel "time (mins)"
+set xlabel "pathway"
 set ytics 0.25
 set xtics 1
 set label "excitatory" at screen 0.2,0.32
@@ -43,9 +43,9 @@ set lmargin at screen 0.62
 set origin 0.5,0
 set size 0.5,0.3
 set xrange [0.8:8.5]
-set yrange [0.25:1]
+set yrange [0:1]
 set ylabel "weight (nS)" offset 1,0
-set xlabel "time (mins)"
+set xlabel "pathway"
 set ytics 0.25
 set xtics 1
 set label "inhibitory" at screen 0.7,0.31
