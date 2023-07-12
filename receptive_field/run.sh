@@ -4,7 +4,7 @@ echo "======================================="
 echo "=------------- compiling -------------="
 echo "=                                     ="
 echo "=------------ messages: --------------="
-ifort receptive_field_plasticity.f90 -fast -o receptive_field_plasticity_exec
+ifx receptive_field_plasticity.f90 -fast -o receptive_field_plasticity_exec
 echo "======================================="
 echo ""
 echo "======================================="
