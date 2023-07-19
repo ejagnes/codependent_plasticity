@@ -4,7 +4,7 @@ echo "======================================="
 echo "=------------- compiling -------------="
 echo "=                                     ="
 echo "=------------ messages: --------------="
-ifort pairing_protocol.f90 -fast -o STDP_exec
+ifx pairing_protocol.f90 -fast -o STDP_exec
 echo "======================================="
 echo ""
 echo "======================================="
