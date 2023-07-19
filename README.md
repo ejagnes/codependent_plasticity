@@ -14,6 +14,8 @@ https://doi.org/10.1101/2021.04.01.437962
 
 Each folder contains the code to run simulations and generate figures. Currently only one folder is accessible, but shortly additional folders will be uploaded here.
 
+Folder "requency_STDP" for figure 2e
+
 Folder "receptive_filed_plasticity" for figure 4
 
 ## Coding language and compilers
