@@ -4,7 +4,7 @@ echo "======================================="
 echo "=------------- compiling -------------="
 echo "=                                     ="
 echo "=------------ messages: --------------="
-ifort plasticity_temporal.f90 -fast -o distance_exec
+ifx plasticity_temporal.f90 -fast -o distance_exec
 echo "======================================="
 echo ""
 echo "======================================="
