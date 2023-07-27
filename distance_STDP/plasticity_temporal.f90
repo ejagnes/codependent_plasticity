@@ -18,7 +18,6 @@
 	PROGRAM RECEPTIVE_FIELD_PLASTICITY
 	USE PARAMETERS
 	USE VARIABLES
-	USE TEMP
 	IMPLICIT NONE
 	REAL*8		::	w_stdp(50),interval_ltp,distance_ltp
 	INTEGER		::	k,interval_dt,interval_dt_strong,interval_dt_weak
