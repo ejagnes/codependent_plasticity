@@ -21,6 +21,10 @@ Parameters for models are in "config.f90" file, in the vector "pr" and other spe
 
 Initial conditions are in "initial_conditions.f90" file.
 
+## Plots
+
+![alt text](receptive_field_sim.png)
+
 ## Questions
 
 Feel free to contact me if you have any questions about the code.
