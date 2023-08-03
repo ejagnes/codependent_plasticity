@@ -30,7 +30,7 @@ set origin 0,0
 set size 0.5,0.3
 set xrange [0.5:8.5]
 set yrange [0:1]
-set ylabel "weight (nS)" offset 1,0
+set ylabel "normalised weight" offset 1,0
 set xlabel "pathway"
 set ytics 0.25
 set xtics 1
@@ -42,9 +42,9 @@ set key at screen 1.0,0.3
 set lmargin at screen 0.62
 set origin 0.5,0
 set size 0.5,0.3
-set xrange [0.8:8.5]
+set xrange [0.5:8.5]
 set yrange [0:1]
-set ylabel "weight (nS)" offset 1,0
+set ylabel "normalised weight" offset 1,0
 set xlabel "pathway"
 set ytics 0.25
 set xtics 1
