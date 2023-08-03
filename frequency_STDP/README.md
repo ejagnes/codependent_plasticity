@@ -13,7 +13,11 @@ The figure will be generated automatically once simulation is over.
 
 ## Parameters
 
-Parameters for models are in "config.f90" file. 
+Parameters for models are in "config.f90" file.
+
+## Plots
+
+![alt text](frequency_STDP.png)
 
 ## Questions
 
