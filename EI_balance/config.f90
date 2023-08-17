@@ -110,7 +110,7 @@
 	!balance term - codependent
 	p_plast(25) = 0.855d0
 	!amplitude of balance difference
-	p_plast(26) = 0.001d0
+	p_plast(26) = 0.0001d0
 
 	p_plast(27) = 0.005d0
 	p_plast(28) = 0.28d0
