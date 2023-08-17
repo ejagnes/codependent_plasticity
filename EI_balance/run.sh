@@ -4,14 +4,14 @@ echo "======================================="
 echo "=------------- compiling -------------="
 echo "=                                     ="
 echo "=------------ messages: --------------="
-ifx balance_firing_rate.f90 -fast -o exc_sim_balance_firing_rate
+ifx balance_firing_rate.f90 -fast -o exec_sim_balance_firing_rate
 echo "======================================="
 echo ""
 echo "======================================="
 echo "=-------------  running  -------------="
 echo "=                                     ="
 echo "=------------ messages: --------------="
-./exc_sim_balance_firing_rate
+./exec_sim_balance_firing_rate
 echo "======================================="
 echo ""
 echo "======================================="
