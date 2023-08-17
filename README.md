@@ -22,6 +22,12 @@ Folder "EI_balance" for figure 3c,d
 
 Folder "receptive_filed_plasticity" for figure 4
 
+Folder "dendrites" for figure 6 (available soon)
+
+Folder "recurrent/learning" for figure 7 (available soon)
+
+Folder "recurrent/recall" for figure 8 (available soon)
+
 ## Coding language and compilers
 
 The code is written to run on Intel Fortran compiler. Plots are generated with gnuplot. To run the code from this repository you need both Intel Fortran (ifx or ifort) and Gnuplot installed on a linux machine (not tested on Windows or iOS).
