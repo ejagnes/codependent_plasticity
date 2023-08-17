@@ -46,23 +46,23 @@ set lmargin at screen 0.12
 set origin 0,0.35
 set size 0.5,0.3
 set xrange [0:40]
-set yrange [0:15]
+set yrange [0:20]
 set ylabel "E/I" offset 0,0
 set xlabel "Time (hours)"
-set ytics 5
+set ytics 10
 set xtics 10
-p working_directory."data02.dat" u ($1/3600000):(-$8) w l lt 1 notitle
+p working_directory."data02.dat" u ($1/3600000):($9/$10) w l lt 1 notitle
 
 set lmargin at screen 0.62
 set origin 0.5,0.35
 set size 0.5,0.3
 set xrange [0:40]
-set yrange [0:1]
+set yrange [0:1.5]
 set ylabel "E/I" offset 0,0
 set xlabel "Time (hours)"
-set ytics 0.25
+set ytics 0.5
 set xtics 10
-p 0.855 lt 3, working_directory."data05.dat" u ($1/3600000):(-$8) w l lt 1 notitle
+p working_directory."data05.dat" u ($1/3600000):($9/$10) w l lt 1 notitle, 0.855 lt 3
 
 
 
@@ -75,6 +75,7 @@ set ylabel "Firing-rate (Hz)" offset -1,0
 set xlabel "Time (hours)"
 set ytics 4
 set xtics 10
+set label "Spike-based E and I" at 8,14
 p 7 lt 3, "exc_fixed_point.dat" w l lt 2 dt 2, working_directory."data02.dat" u ($1/3600000):2 w l lt 1 notitle
 
 
@@ -88,4 +89,5 @@ set ylabel "Firing-rate (Hz)" offset -1,0
 set xlabel "Time (hours)"
 set ytics 4
 set xtics 10
-p "exc_fixed_point.dat" w l lt 2 dt 2, working_directory."data05.dat" u ($1/3600000):2 w l lt 1 notitle
+set label "Spike-based E and codependent I" at -1,14
+p working_directory."data05.dat" u ($1/3600000):2 w l lt 1 notitle, "exc_fixed_point.dat" w l lt 2 dt 2
