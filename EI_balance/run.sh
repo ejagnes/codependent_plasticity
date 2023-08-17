@@ -4,7 +4,7 @@ echo "======================================="
 echo "=------------- compiling -------------="
 echo "=                                     ="
 echo "=------------ messages: --------------="
-ifort balance_firing_rate.f90 -fast -o exc_sim_balance_firing_rate
+ifx balance_firing_rate.f90 -fast -o exc_sim_balance_firing_rate
 echo "======================================="
 echo ""
 echo "======================================="
