@@ -22,7 +22,7 @@ Folder "EI_balance" for figure 3c,d
 
 Folder "receptive_filed_plasticity" for figure 4
 
-Folder "dendrites" for figure 6 (available soon)
+Folder "dendrites" for figure 6
 
 Folder "recurrent/learning" for figure 7 (available soon)
 
