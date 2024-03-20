@@ -16,11 +16,13 @@ Each folder contains the code to run simulations and generate figures. Currently
 
 Folder "voltage_STDP" for figure 2b
 
-Folder "frequency_STDP" for figure 2e
+Folder "frequency_STDP" for figure 2c,e
 
-Folder "EI_balance" for figure 3c,d
+Folder "distance_STDP" for figure 2h-j
 
-Folder "receptive_filed_plasticity" for figure 4
+Folder "EI_balance" for figure 4c,d
+
+Folder "receptive_filed_plasticity" for figure 5
 
 Folder "dendrites" for figure 6
 
