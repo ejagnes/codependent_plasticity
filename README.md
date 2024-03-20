@@ -1,4 +1,4 @@
-# Code used for article: Codependent excitatory and inhibitory plasticity accounts for quick, stable and long-lasting memories in biological networks
+# Code used for article: Co-dependent excitatory and inhibitory plasticity accounts for quick, stable and long-lasting memories in biological networks
 
 Everton J. Agnes (1,2) and Tim P. Vogels (1,3)
 
@@ -8,7 +8,7 @@ Everton J. Agnes (1,2) and Tim P. Vogels (1,3)
 
 3 - Institute for Science and Technology Austria, Klosterneuburg, Austria
 
-https://doi.org/10.1101/2021.04.01.437962
+https://doi.org/10.1038/s41593-024-01597-4
 
 ## Repository organisation
 
