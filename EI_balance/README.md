@@ -15,10 +15,6 @@ The figure will be generated automatically once simulation is over.
 
 Parameters for models are in "config.f90" file.
 
-## Plots
-
-![alt text](balance_EI.png)
-
 ## Questions
 
 Feel free to contact me if you have any questions about the code.
