@@ -12,7 +12,7 @@ https://doi.org/10.1101/2021.04.01.437962
 
 ## Repository organisation
 
-Each folder contains the code to run simulations and generate figures. Currently five folders are accessible and shortly additional folders will be uploaded here.
+Each folder contains the code to run simulations and generate figures. Currently six folders are accessible and shortly additional folders will be uploaded here.
 
 Folder "voltage_STDP" for figure 2b
 
